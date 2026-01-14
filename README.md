@@ -31,7 +31,7 @@ Make sure you have the following before deployment:
 
 ## 🛠️ Step-by-Step Deployment Guide
 
-### 1️⃣ Push Your Project to GitHub
+### Push Your Project to GitHub
 
 ```bash
 git init
@@ -40,3 +40,53 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/username/repo-name.git
 git push -u origin main
+
+# 🚀 Vercel Deployment Using GitHub  
+### College Project Documentation
+
+---
+
+### Login to Vercel
+
+1. Visit: https://vercel.com  
+2. Click **Sign Up / Login**  
+3. Choose **Continue with GitHub**  
+4. Authorize Vercel to access your GitHub repositories  
+
+---
+
+### Import GitHub Repository
+
+1. Click **Add New → Project**  
+2. Select your GitHub repository  
+3. Click **Import**
+
+---
+
+### Configure Project Settings
+
+Vercel will automatically detect your project framework.
+
+### Common Configuration Settings
+
+| Framework     | Build Command     | Output Directory |
+|--------------|------------------|-----------------|
+| Next.js      | `npm run build`  | `.next`         |
+| React (CRA)  | `npm run build`  | `build`         |
+| Vite         | `npm run build`  | `dist`          |
+
+⚠️ **Note:** Change these settings only if your project requires custom configuration.
+
+---
+
+### Environment Variables (Optional)
+
+If your project uses environment variables:
+
+1. Go to **Project → Settings → Environment Variables**
+2. Add variables manually
+
+### Example
+
+```env
+NEXT_PUBLIC_API_URL=https://api.example.com
