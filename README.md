@@ -40,13 +40,13 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/username/repo-name.git
 git push -u origin main
-
+```
 # 🚀 Vercel Deployment Using GitHub  
 ### College Project Documentation
 
 ---
 
-### Login to Vercel
+## Login to Vercel
 
 1. Visit: https://vercel.com  
 2. Click **Sign Up / Login**  
@@ -55,7 +55,7 @@ git push -u origin main
 
 ---
 
-### Import GitHub Repository
+## Import GitHub Repository
 
 1. Click **Add New → Project**  
 2. Select your GitHub repository  
@@ -63,11 +63,11 @@ git push -u origin main
 
 ---
 
-### Configure Project Settings
+## Configure Project Settings
 
 Vercel will automatically detect your project framework.
 
-### Common Configuration Settings
+## Common Configuration Settings
 
 | Framework     | Build Command     | Output Directory |
 |--------------|------------------|-----------------|
@@ -79,7 +79,7 @@ Vercel will automatically detect your project framework.
 
 ---
 
-### Environment Variables (Optional)
+## Environment Variables (Optional)
 
 If your project uses environment variables:
 
@@ -90,3 +90,13 @@ If your project uses environment variables:
 
 ```env
 NEXT_PUBLIC_API_URL=https://api.example.com
+```
+## Deploy the Project 🚀
+
+1. Click **Deploy**
+2. Vercel will automatically:
+   - Install project dependencies
+   - Build the application
+   - Deploy the project
+
+✅ After successful deployment, you will receive a **live production URL**.
