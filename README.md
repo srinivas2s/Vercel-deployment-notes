@@ -1,14 +1,14 @@
 # Vercel-deployment-notes
 This is a notes for deployment of websites using vercel 
 
-# 🚀 Vercel Deployment Notes (Using GitHub)
+# Vercel Deployment Notes (Using GitHub)
 
 This repository documents the step-by-step process to deploy a website or web application on **Vercel** using **GitHub integration**.  
 It is suitable for projects built with **Next.js, React, Vite, Node.js**, or static websites.
 
 ---
 
-## 📌 Prerequisites
+## Prerequisites
 
 Make sure you have the following before deployment:
 
@@ -20,7 +20,7 @@ Make sure you have the following before deployment:
 
 ---
 
-## 📂 Supported Technologies
+## Supported Technologies
 
 - Next.js (Recommended by Vercel)
 - React (CRA / Vite)
@@ -29,7 +29,7 @@ Make sure you have the following before deployment:
 
 ---
 
-## 🛠️ Step-by-Step Deployment Guide
+## Step-by-Step Deployment Guide
 
 ### Push Your Project to GitHub
 
@@ -41,7 +41,7 @@ git branch -M main
 git remote add origin https://github.com/username/repo-name.git
 git push -u origin main
 ```
-# 🚀 Vercel Deployment Using GitHub  
+# Vercel Deployment Using GitHub  
 ### College Project Documentation
 
 ---
@@ -75,7 +75,7 @@ Vercel will automatically detect your project framework.
 | React (CRA)  | `npm run build`  | `build`         |
 | Vite         | `npm run build`  | `dist`          |
 
-⚠️ **Note:** Change these settings only if your project requires custom configuration.
+**Note:** Change these settings only if your project requires custom configuration.
 
 ---
 
@@ -91,7 +91,7 @@ If your project uses environment variables:
 ```env
 NEXT_PUBLIC_API_URL=https://api.example.com
 ```
-## Deploy the Project 🚀
+## Deploy the Project 
 
 1. Click **Deploy**
 2. Vercel will automatically:
@@ -99,4 +99,4 @@ NEXT_PUBLIC_API_URL=https://api.example.com
    - Build the application
    - Deploy the project
 
-✅ After successful deployment, you will receive a **live production URL**.
+ After successful deployment, you will receive a **live production URL**.
